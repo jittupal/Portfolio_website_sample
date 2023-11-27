@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    overflow: hidden;
+    position: relative;
+}
+
+.page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: black; */
+}
+
+.page img{
+    /* background-color: rgb(167, 124, 124); */
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 50%;
+    margin-top: 80px;
+}
+
+/* .page .nav{
+    width: 100%;
+    position: absolute; 
+     /* position: relative; */
+    /* height: 10%; */
+    /* right: 0;
+    background-color: red; */
+  
+
+.page .links{
+    margin-top: 20px;
+    /* right: 20%; */
+    left: 40%;
+    height: 60px;
+    position: absolute;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+
+
+.links a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: all ease 0.5s;
+}
+
+.links a:hover{
+    color: rgb(49, 13, 255);
+    font-size: 40px;
+}
+
+.page #logo{
+    left: 0;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    top: -2px;
+}
+
+.page .text{
+
+    padding: 30px 50px;
+    position: relative;
+    top: 45%;
+    width: 40%;
+    left: 5%;
+    height: 80%;
+    /* background-color: red; */
+}
+
+.text>h1{
+    margin-top: 15px;
+    font-size: 60px;
+    /* color: greenyellow; */
+}
+
+.text h1 span{
+    color: rgb(0, 158, 53);
+}
+.text>h3{
+    margin-left: 150px;
+    margin-top: 5px;
+    font-size: 25px;
+    /* color: greenyellow; */
+}
+
+.text>h4{
+    color: rgb(71, 200, 255);
+    /* rotate: 35deg; */
+    transform: rotate(-20deg);
+    position: absolute;
+}
+
+.text .buttons{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.buttons button{
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 10px 25px;
+    border: none;
+    text-decoration: none;
+    background-color: rgb(247, 164, 56);
+}
+
+.buttons button a{
+    color: rgb(39, 0, 194);
+    text-decoration: none;
+}
+.page1{
+    margin-top: 5%;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    /* background-color: rgb(193, 2, 2); */
+    /* background-color: #000000; */
+    background-color: cadetblue;
+}
+
+.page1 .left{
+    top: 60px;
+    height: 100vh;
+    width: 38%;
+    /* background-color: red; */
+    position: absolute;
+    right: 5%;
+}
+
+.left .box{
+    padding: 30px;
+    height: 28vh;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    /* border: 3px solid black; */
+    border-top: 3px solid rgb(255, 234, 0);
+    border-bottom: 3px solid rgb(255, 221, 2);
+}
+
+.box h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.box h3{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: 600;
+}
+.left h1{
+    margin-bottom: 30px;
+    color: rgb(89, 0, 173);
+}
+.page1 .right{
+
+    top: 10%;
+    left: 5%;
+    width: 50%;
+    height: 30%;
+    /* background-color: red; */
+    position: relative;
+    /* background-color: red; */
+}
+
+.right h1{
+    /* position: absolute; */
+    /* top: 10%; */
+    left: 5%;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.skills{
+    margin-top: 10%;
+    position: absolute;
+    left: 5%;
+    height: 50%;
+    width: 50%;
+    /* background-color: black; */
+    /* padding: 30px; */
+}
+
+.skills h1{
+    margin-top: 50px;
+    font-size: 30px;
+    /* color: red; */
+    color: rgb(0, 191, 255);
+}
+
+.skills .ski{
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.ski li{
+    left: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(238, 255, 0); */
+    position: relative;
+    background-color: bisque;
+}
+
+.page2 .projects{
+    position: absolute;
+    height: 60%;
+    width: 90%;
+    /* background-color: black; */
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .proj{
+    height: 100%;
+    width: 31%;
+    /* background-color: aliceblue; */
+    /* border-right: 2px solid white; */
+    /* border-left: 2px solid white; */
+    /* border: 2px solid black; */
+}
+
+.proj .tex{
+    border-top: 2px solid black;
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(0, 227, 42); */
+    /* border-bottom: 2px solid white; */
+}
+
+.tex h1{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.proj .image{
+    height: 70%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-image: url("/QR-Code-Generator.png");
+    background-size: cover;
+    background-position: center;
+    border: 15px solid grey;
+}
+
+.proj .text{
+    border-top: 2px solid black;
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(0, 227, 42); */
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+}
+
+.text h1{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.proj .images{
+    height: 70%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-image: url("/NEUMORPHISM\ KEYBOARD.png");
+    background-size: cover;
+    background-position: center;
+    border: 15px solid grey;
+}
+.proj .end{
+    border-top: 2px solid black;
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(0, 227, 42); */
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+}
+
+.end h1{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.proj .imag{
+    height: 70%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-image: url("/Screenshot\ 2023-10-28\ 113722.png");
+    background-size: cover;
+    background-position: center;
+    border: 15px solid grey;
+}
+
+.p2{
+    position: relative;
+    top: -20%;
+}
+
+.p3{
+    position: relative;
+    top: -40%;
+}
+
+.page2 .text-con{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 5%;
+    height: 20%;
+    width: 25%;
+    top: 4%;
+    /* background-color: black; */
+    /* border-top: 3px solid rgb(0, 0, 0); */
+    /* border-bottom: 3px solid rgb(0, 0, 0); */
+}
+
+.text-con h1{
+    font-size: 50px;
+    color: rgb(255, 153, 0);
+}
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 174, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.page3 .social{
+    height: 60%;
+    width: 30%;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 35%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.social .link{
+    border-top: 3px solid black;
+    margin-top: 25px;
+    height: 40%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social h1{
+    font-size: 25px;
+}
+
+.page3 .coding{
+    height: 60%;
+    width: 30%;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 15%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.coding h1{
+    font-size: 25px;
+}
+
+.coding .lin{
+    border-top: 3px solid black;
+    margin-top: 25px;
+    height: 40%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lin a{
+    margin: 20px;
+    text-decoration: none;
+    width: 130px;
+    font-size: 18px;
+}
+
+.page3 .job{
+    height: 60%;
+    width: 30%;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 5%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.job h1{
+    /* position: fixed; */
+    font-size: 25px;
+}
+
+.job .linkk{
+    border-top: 3px solid black;
+    margin-top: 25px;
+    height: 40%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkk a{
+    margin: 20px;
+    text-decoration: none;
+    width: 130px;
+    font-size: 18px;
+}
+
+.page3 #top{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 40px;
+}
